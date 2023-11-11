@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yemek Listesi</title>
+    <style>
+       
+       *{
+    margin: 0;
+    padding: o;
+     }
+
+     nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(41, 41, 46);
+    font-size:25px;
+    z-index: 10;
+    }
+
+    a{
+    color:white;
+    margin: 100px;
+    text-decoration:none;
+    }
+
+    a:hover{
+    color: rgb(255, 157, 104);
+    }
+
+      html, body{
+      height: 100%;
+      width: 100%;
+    }
+
+      body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(159, 159, 181);
+    }
+
+     h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(222, 239, 255);
+    align-items: start;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 17px;
+    
+    }
+    .maincontainer{
+        display: flex;
+        background-color: rgb(222, 239, 255);
+        flex-wrap: wrap;
+        height: 580px;
+        width: 1000px;
+        align-content: space-around;
+        flex-direction: row;
+        border-radius: 40px;
+        border: 10px rgb(0, 0, 0);
+        border-style: double;
+        box-shadow: 20px 20px 0 0 rgb(58, 60, 92);
+    }
+
+    .listeSağ{
+        flex: 1;
+        font-size: 25px;
+        font-style: oblique;
+        color: rgb(0, 0, 0);
+    }
+
+    .listeSol{
+       flex: 1;
+       font-size: 25px;
+       font-style: oblique;
+       color: rgb(0, 0, 0);
+    }
+
+    .yemek{
+       height: 130px;
+    }
+
+   
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="siparis_formu.html">SİPARİŞ FORMU</a><a href="yemekListesi.html">YİYECEKLER</a><a href="icecekler.html">İÇECEKLER</a><a href="fiyat_listesi.html">FİYAT LİSTESİ</a>
+    </nav>
+    <br>
+
+    <h1>YEMEKLER</h1>
+<br>   
+</br>
+    <div class="maincontainer"> 
+        <br>
+        
+        <div class="listeSol"> 
+            <div class="yemek">Beyti Kebabı  220 TL
+                <img src="/beytikebabı.jpeg" alt="">
+            </div>
+            <div class="yemek">Asya kebabı  260 TL
+                <img src="/asya-kebap.jpeg" alt="">
+            </div>
+            <div class="yemek">Adana Kebabı  270 TL
+                <img src="/adanakebap.jpeg" alt="">
+            </div>
+            <div class="yemek">Alinazik  240 TL
+                <img src="/alinazik.jpeg" alt="">
+            </div>
+        </div>
+            
+            
+        <div class="listeSağ">
+            <div class="yemek">Tavuk Şiş  180 TL    
+                <img src="/tavukşiş.jpeg" alt="">
+            </div>
+            <div class="yemek">Tavuk Pirzola  200 TL
+               <img src="/tavukpirzola.jpeg" alt="">
+            </div>
+            <div class="yemek">Tavuk Kanadı  220 TL
+                <img src="/tavukkanat.jpeg" alt="">
+            </div>
+            <div class="yemek">Patlıcan Kebabı 180 TL
+                <img src="/patlıcankebabı.jpeg" alt="">
+            </div>
+           
+        </div>
+    </table>
+    </div>
+</body>
+</html>
